@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: rgba(26, 25, 25, 0.7);
+}
+
+.main-header {
+background-image :url("Images/bgim7.jpeg");
+background-size : cover;
+padding-bottom : 30px;
+text-align: center;
+}
+
+.school-name{
+    padding : 0.5em 2em;
+    font-size:40px;
+    font-weight:bold;
+    font-family:Raleway;
+}
+
+html,body {
+    margin:0;
+    padding:0;
+}
+.nav ul{
+    margin : 0;
+}
+
+.main-nav{
+    text-align : center;
+    font-size: 1.2em;
+    font-weight: lighter;
+}
+
+.main-nav li{
+    padding:0 4%;
+}
+.nav li{
+    display : inline;
+}
+.nav a{
+    padding : 0 .5em;
+    text-decoration: none;
+}
+.nav a:hover{
+    background-color: rgba(229, 232, 241, 0.3);
+
+}
+
+.content-section {
+    margin : 1em;
+}
+
+.container {
+    max-width:900px;
+    margin : 0 auto;
+    padding: 1.5em 1.5em;
+}
+
+.section-header {
+    text-align:center;
+    font-size:2.2em;
+}
+
+.size-font {
+    font-size:1.1em;
+}
+
+.about-school-image {
+height:200px;
+width:200px;
+float: left;
+padding : 1.1em 1.1em;
+border-radius:50%;
+display:inline-flex;
+margin:auto 20px;
+position:relative;
+left:120px;
+bottom:15px;
+}
+
+.foot-image {
+    height:50px;
+    width:50px;
+}
+.main-footer{
+    background-color: rgba(36, 168, 230, 0.6);
+    padding:.25em 0;
+    }
+
+.foot-style {
+    font-size : 1.5em;
+    font-weight: bold;
+    margin: 20px 20px;
+    text-align:center;
+    padding-top:10px;
+}
+.main-footer-container ul{
+flex-grow:1;
+text-align:end;
+}
+.main-footer-container{
+    display:flex;
+    align-items:center;
+}
+
+.footer-nav img{
+    height:30px;
+    width:30px;
+}
+
+.gallery-image {
+    padding : 1.1em 1.1em;
+    display : inline;
+}
+
+.course-list a:hover{
+    background-color: rgba(36, 168, 230, 0.6);
+}
+
+.course-list li{
+    padding-bottom: 1.1em;
+    list-style-type: none;
+}
+
+.course-list a{
+    text-decoration: none;
+}
+
+.course-container {
+    border : 1px solid rgba(148, 145, 145, 0.6);
+    padding-right: 0px;
+    padding-left:10px;
+    width:300px;
+    border-radius:5px;
+    margin:auto;
+}
+.left{
+    float:left;
+}
+
+.right{
+    float:right;
+}
+
+.main-footer-container a{
+    text-decoration: none;
+    padding-left:10px;
+}
+
+
+
